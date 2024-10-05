@@ -1,0 +1,61 @@
+/*elmt{
+
+}
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+   /*border: solid red 1px;*/
+}
+.text-center{
+    text-align: center;
+}
+a{
+    margin-right: 1vh;
+    margin-bottom: 4vw 0;
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
+h2{
+    width: fit-content;
+}
+#index{
+    text-align: center;
+}
+
+.space-y-1{
+    margin-bottom: 2vh;
+    margin: 2vh 0;
+
+}
+.space-y-2{
+    margin: 4vh 0;
+}
+.ml-1{
+    margin-left: 1vw !important;/*peut importe ny ordre avec cas specifique*/
+}
+.mx-1{
+    margin: 0 2vw;
+}
+h2:hover{
+    text-decoration-color:red; 
+    color: red;
+    text-decoration: underline;
+}
+section >h2 + p{/*p voalohany eo akaikiny*/
+    color: green;
+}
+div {
+    text-align: right;
+}
+/* flex-box
+flex-direction :row ordre d'alignement
+gap :
+justify-content:space between
+align-items*/
